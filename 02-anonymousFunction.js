@@ -1,7 +1,7 @@
-let myName1 = function (name) { 
+// let myName1 = function (name) { 
     
-    document.writeln(`My name is ${name}`) 
+//     document.writeln(`My name is ${name}`) 
 
-}
+// }
 
-myName1 ("Jonathan")
+// myName1 ("Jonathan")
