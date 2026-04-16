@@ -1,0 +1,20 @@
+.contenedor {
+    width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#numero {
+    color: blue;
+    font-size: 60px;
+}
+
+button {
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#b1, #b2, #b3 {
+    background-color: black;
+    color: white;
+}
