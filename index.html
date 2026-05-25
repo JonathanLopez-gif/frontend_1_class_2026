@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>To Do List</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="img/check.png">
+</head>
+
+<body>
+  <img id="mainImg" src="img/avatar.png" alt="Tasks logo">
+
+  <div id="mainContainer">
+    <h1>Asignación de Tareas</h1>
+
+    <div id="addTasks">
+      <input type="text" id="taskInput" placeholder="Escribe una tarea aquí ... ✍️" autofocus>
+      <button id="addTaskBtn">+</button>
+    </div>
+
+    <ul id="tasksList"></ul>
+  </div>
+
+  <div id="tasksTotal">
+    <p id="tasksPending"></p>
+    <p id="tasksComplete"></p>
+  </div>
+
+  <script src="tasks.js"></script>
+
+</body>
+
+</html>
